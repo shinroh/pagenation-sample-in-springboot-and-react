@@ -9,7 +9,7 @@
 確認したNode.jsのバージョン：v14.15.3
 
 ・H2Console
-http://localhost:8080/h2-console/l
+http://localhost:8080/h2-console/
 
 上記から、ユーザーのテストデータを追加してください。
 
