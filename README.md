@@ -1,4 +1,4 @@
-# pagenation-sample-in-springboot-and-react
+# pagination-sample-in-springboot-and-react
 
 当プログラムは、SpringBoot3 と Sematic UI React による Pagination のサンプルです。
 
