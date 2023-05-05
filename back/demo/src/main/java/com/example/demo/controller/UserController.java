@@ -1,6 +1,6 @@
 package com.example.demo.controller;
 
-import com.example.demo.UserMapper;
+import com.example.demo.mapper.UserMapper;
 import com.example.demo.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -19,6 +19,7 @@ public class UserController {
     @Autowired
     private UserMapper userMapper;
 
+    //サンプルのため、直接コントローラーにロジックを記載しているが、本来はサービスクラスにロジックを分離すること
     @CrossOrigin(origins = "http://localhost:3000")
     @GetMapping("/api/users")
     public Page<User> getUsers(@RequestParam(required = false, defaultValue = "0") int page,
